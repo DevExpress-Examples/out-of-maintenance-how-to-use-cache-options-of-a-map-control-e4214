@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/MapCacheOptions/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MapCacheOptions/MainWindow.xaml))
+<!-- default file list end -->
 # How to use cache options of a map control
 
 
