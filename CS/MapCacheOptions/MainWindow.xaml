@@ -10,7 +10,7 @@
             </dxm:MapControl.CacheOptions>
             <dxm:ImageTilesLayer >
                 <dxm:ImageTilesLayer.DataProvider>
-                    <dxm:OpenStreetMapDataProvider Kind="Road" />
+                    <dxm:OpenStreetMapDataProvider Kind="Basic"/>
                 </dxm:ImageTilesLayer.DataProvider>
             </dxm:ImageTilesLayer>
         </dxm:MapControl>
