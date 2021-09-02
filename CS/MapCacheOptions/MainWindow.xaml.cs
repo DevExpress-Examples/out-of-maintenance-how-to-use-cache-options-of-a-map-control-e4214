@@ -10,5 +10,9 @@ namespace MapCacheOptions {
             InitializeComponent();
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
         }
+
+        private void OpenStreetMapDataProvider_WebRequest(object sender, DevExpress.Xpf.Map.MapWebRequestEventArgs e) {
+            e.UserAgent = "DevExpress OpenStreetMapProvider example";
+        }
     }
 }
