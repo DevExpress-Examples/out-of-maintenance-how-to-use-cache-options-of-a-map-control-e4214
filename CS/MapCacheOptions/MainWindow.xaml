@@ -8,11 +8,11 @@
             <dxm:MapControl.CacheOptions>
                 <dxm:CacheOptions Directory="C://MapTiles" KeepInterval="01:00:00"/>
             </dxm:MapControl.CacheOptions>
-            <dxm:ImageTilesLayer >
-                <dxm:ImageTilesLayer.DataProvider>
+            <dxm:ImageLayer>
+                <dxm:ImageLayer.DataProvider>
                     <dxm:OpenStreetMapDataProvider Kind="Basic" WebRequest="OpenStreetMapDataProvider_WebRequest"/>
-                </dxm:ImageTilesLayer.DataProvider>
-            </dxm:ImageTilesLayer>
+                </dxm:ImageLayer.DataProvider>
+            </dxm:ImageLayer>
         </dxm:MapControl>
     </Grid>
 </Window>
